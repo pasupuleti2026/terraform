@@ -1,0 +1,6 @@
+variable.tf
+
+variable "s3_bucket_names" {
+  default     = "saru-dev-bucket"
+  type        = string
+}
